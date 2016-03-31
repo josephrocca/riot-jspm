@@ -6,6 +6,10 @@
   </ul>
 
   <script>
+    import MyClass from "MyClass.js";
+
+    var m = new MyClass();
+
     this.subtitle = 'Easy, right?';
     this.list = [
       { name: 'my' },

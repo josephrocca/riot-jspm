@@ -1,12 +1,16 @@
 SystemJS.config({
+    transpiler: "plugin-babel",
+    packages: {
+        "riot-jspm": {}
+    }
+});
+
+SystemJS.config({
     packageConfigPaths: [
         "npm:@*/*.json",
         "npm:*.json",
         "github:*/*.json"
     ],
-    globalEvaluationScope: false,
-    transpiler: "plugin-babel",
-
     map: {
         "assert": "github:jspm/nodelibs-assert@0.2.0-alpha",
         "buffer": "github:jspm/nodelibs-buffer@0.2.0-alpha",
@@ -44,9 +48,7 @@ SystemJS.config({
         "vm": "github:jspm/nodelibs-vm@0.2.0-alpha",
         "zlib": "github:jspm/nodelibs-zlib@0.2.0-alpha"
     },
-
     packages: {
-        "riot-jspm": {},
         "github:jspm/nodelibs-buffer@0.2.0-alpha": {
             "map": {
                 "buffer-browserify": "npm:buffer@4.4.0"
