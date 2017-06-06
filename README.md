@@ -4,8 +4,6 @@ Hello! Here's the quick guide to get up and running with JSPM and Riot.js.
 
 Please note that this tutorial was written for JSPM v0.17 beta. If something doesn't quite work, it's probably best to check the up-to-date "getting started" tutorials at [jspm.io](http://jspm.io/), and [riot-systemjs on npm](https://www.npmjs.com/package/systemjs-riot)
 
-If you want to skip straight to the code, here's the [GitHub repo](https://github.com/josephrocca/riot-jspm).
-
 In this tutorial, we'll just be doing 3 things:
 
 1. Install NPM and JSPM
@@ -107,13 +105,9 @@ http-server
 ```
 And then it'll give you an address to type into your web browser.
 
-As mentioned, all files are [on GitHub](https://github.com/josephrocca/riot-jspm). Enjoy!
-
 ## Keep reading
 
  - The [System.js repo](https://github.com/systemjs/systemjs) has [great explanations](https://github.com/systemjs/systemjs/tree/master/docs) of the config files which are definitely worth reading.
  - [jspm.io](http://jspm.io) has a guide for each major release - you'll probably run into problems if you don't invest the time in reading it.
  - Cédric Tran-Xuan at [streamdata.io](http://streamdata.io) has a [great series of introductory posts](http://streamdata.io/blog/exploring-riot-js-part1/) on Riot.js.
  - Of course, the official [Riot.js guide](http://riotjs.com/guide/) is definitely worth reading if you haven't already.
-
-Thanks to [Manuel Barroso Parejo](https://unsplash.com/lute3d/portfolio) for the irrelevant but nice mushroom photo :)
