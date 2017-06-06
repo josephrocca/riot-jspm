@@ -1,3 +1,5 @@
+# A Simple "Hello World" with JSPM and Riot.js
+
 Hello! Here's the quick guide to get up and running with JSPM and Riot.js.
 
 Please note that this tutorial was written for JSPM v0.17 beta. If something doesn't quite work, it's probably best to check the up-to-date "getting started" tutorials at [jspm.io](http://jspm.io/), and [riot-systemjs on npm](https://www.npmjs.com/package/systemjs-riot)
