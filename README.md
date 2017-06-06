@@ -1,3 +1,5 @@
+(Note: this tutorial is a bit old now, not sure if it's still useful as I haven't used jspm in a while)
+
 # A Simple "Hello World" with JSPM and Riot.js
 
 Hello! Here's the quick guide to get up and running with JSPM and Riot.js.
